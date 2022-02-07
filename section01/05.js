@@ -8,6 +8,6 @@ const minNumber = function (arr) {
     return answer
 }
 
-array = [5, 3, 7, 11, 2, 15, 17];
+let array = [5, 3, 7, 11, 2, 15, 17];
 
 console.log(minNumber(array));
