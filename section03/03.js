@@ -1,9 +1,13 @@
-const palindrom = function (arr) {
-    let answer;
+const numFilter = function (str) {
+    let answer = 0;
+    
+    str = str.replace(/[a-zA-Z]/g,'');
+
+    answer = parseInt(str);
 
     return answer;
 };
 
-let arr = [];
+let str = "g0en2T0s8eSoft";
 
-console.log();
+console.log(numFilter(str));
