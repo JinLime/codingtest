@@ -1,9 +1,7 @@
-const  = () => {
-    let answer;
-    
-    return answer;
-};
+let arr = [5, 6, 7, 4, 5];
 
-arr = [];
+let answer = arr.slice(0, 3).reduce((a, b) => {
+    return a + b;
+}, 0);
 
-console.log();
+console.log(answer);
