@@ -1,4 +1,13 @@
-let a = [1,2,3,4,5];
+const solution = function (numers) {
+    let answer = -1;
 
-a.splice(1,2);
-console.log(a);
+    let zeroToNine = [...Array(10)].map((v, i) => i);
+
+    let 
+
+    return answer;
+};
+
+let numbers = [5, 8, 4, 0, 6, 7, 9];
+
+console.log(solution(numbers));
