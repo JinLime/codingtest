@@ -1,5 +1,17 @@
-let a = [5, 6, 7, 8, 9, 10];
+const solution = function (absolutes, signs) {
+    let answer = 0;
 
-let b = a.map((a, b) => {
-    console.log(a, b);
-});
+    for (let i = 0; i < absolutes.length; i++) {
+        if (signs[i] === true) answer += absolutes[i];
+        else answer += (absolutes[i]*-1);
+    }
+
+
+
+    return answer;
+};
+
+let absolutes = [4,7,12];
+let signs = [true,false,true];
+
+console.log(solution(absolutes, signs));

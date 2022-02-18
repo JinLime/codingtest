@@ -1,13 +1,13 @@
-const solution = function (numers) {
-    let answer = -1;
+const solution = function (numbers) {
+    let answer = 0;
 
-    let zeroToNine = [...Array(10)].map((v, i) => i);
-
-    let 
+    for (let i = 0; i < 10; i++) {
+        if (!numbers.includes(i)) answer += i;
+    }
 
     return answer;
 };
 
-let numbers = [5, 8, 4, 0, 6, 7, 9];
+let numbers = [1,2,3,4,6,7,8,0];
 
 console.log(solution(numbers));
