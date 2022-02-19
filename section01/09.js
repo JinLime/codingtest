@@ -1,8 +1,8 @@
-const AtoHash = function (arr) {
-    // answer = arr.replace(/A/g, "#");
+const AtoHash = function (str) {
+    // answer = str.replace(/A/g, "#");
 
     let answer = "";
-    for (let i of arr) {
+    for (let i of str) {
         if (i === "A") answer += "#";
         else answer += i;
     }
@@ -10,6 +10,6 @@ const AtoHash = function (arr) {
     return answer;
 };
 
-let arr = "BANANA";
+let str = "BANANA";
 
-console.log(AtoHash(arr));
+console.log(AtoHash(str));

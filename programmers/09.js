@@ -1,7 +1,14 @@
-let a = [10,11,12,13];
+const solution = function (a, b) {
+    let answer = 0;
 
-a.reduce((v,i,d) => {
+    for (let i = 0; i < a.length; i++) {
+        answer += a[i] * b[i];
+    }
 
-    console.log(v,i,d);
-    return v, i;
-})
+    return answer;
+};
+
+let a = [1, 2, 3, 4];
+let b = [-3, -1, 0, 2];
+
+console.log(solution(a, b));

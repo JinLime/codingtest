@@ -1,8 +1,10 @@
-let arr = [5, 6, 7, 4, 5];
+const anagramAll = (arr1, arr2) => {
+    let answer = 0;
 
-let answer = arr.slice(0, 3).reduce((a, b) => {
-    if ()
-    return a + b;
-}, 0);
+    return answer;
+};
 
-console.log(answer);
+let arr1 = "bacaAacba";
+let arr2 = "abc";
+
+console.log(anagram(arr1, arr2));
