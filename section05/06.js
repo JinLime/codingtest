@@ -17,6 +17,6 @@ const classPresident = (arr) => {
     return answer;
 };
 
-arr = "BACBACCACCBDEDE";
+let arr = "BACBACCACCBDEDE";
 
 console.log(classPresident(arr));
