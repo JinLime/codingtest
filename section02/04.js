@@ -5,7 +5,7 @@ const oxQuiz = function (arr) {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === 1) stack.push(1);
         else {
-            stack.filter((v, i) => (answer += v * i + 1));
+            stack.map((v, i) => (answer += v * i + 1));
             stack = [];
         }
     }
