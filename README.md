@@ -59,13 +59,13 @@
 
 ## section06. 자료구조(스택, 큐)
 
-[01. ](https://github.com/JinLime/codingtest/blob/master/section06/01.js)  
-[02. ](https://github.com/JinLime/codingtest/blob/master/section06/02.js)  
-[03. ](https://github.com/JinLime/codingtest/blob/master/section06/03.js)  
-[04. ](https://github.com/JinLime/codingtest/blob/master/section06/04.js)  
-[05. ](https://github.com/JinLime/codingtest/blob/master/section06/05.js)  
-[06. ](https://github.com/JinLime/codingtest/blob/master/section06/06.js)  
-[07. ](https://github.com/JinLime/codingtest/blob/master/section06/07.js)
+[01. 올바른 괄호(스택)](https://github.com/JinLime/codingtest/blob/master/section06/01.js)  
+[02. 괄호 문자 제거(스택)](https://github.com/JinLime/codingtest/blob/master/section06/02.js)  
+[03. 크레인 인형뽑기(스택)](https://github.com/JinLime/codingtest/blob/master/section06/03.js)  
+[04. 후위식 연산(스택)](https://github.com/JinLime/codingtest/blob/master/section06/04.js)  
+[05. 쇠막대기(스택)](https://github.com/JinLime/codingtest/blob/master/section06/05.js)  
+[06. 공주 구하기(큐)](https://github.com/JinLime/codingtest/blob/master/section06/06.js)  
+[07. 교육과정설계(큐)](https://github.com/JinLime/codingtest/blob/master/section06/07.js)
 
 ## section07. 정렬과 그리디, 결정알고리즘(이분검색)
 
