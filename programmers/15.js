@@ -1,7 +1,14 @@
-let a = [0,1,2,3,4,5];
+function solution(nums) {
+    const nSelect = nums.length/2;
+    const numSet = [...new Set(nums)];
 
-delete a[1];
+    // if (numSet.length < nSelect) return numSet.length;
+    // else return nSelect;
+    
+    return numSet.length < nSelect ? numSet.length : nSelect;
 
-for (let x of a) {
-    console.log(x);
 }
+
+let nums = [3,1,2,3];
+
+console.log(solution(nums));
