@@ -1,22 +1,15 @@
-function bubbleSort(list) {
-    let unsortedIndex = list.length - 1;
-    let sorted = false;
-
-    while (!sorted) {
-        let swap;
-        sorted = true;
-        for (let i = 0; i < unsortedIndex; i++) {
-            if (list[i] > list[i + 1]) {
-                swap = list[i];
-                list[i] = list[i + 1];
-                list[i + 1] = swap;
-                sorted = false;
-            }
+function selectionSort(list) {
+    let result = list;
+    for (let i = 0; i < list.length-1; i++) {
+        let index = i;
+        for (let j = i+1; j < list.length; j++) {
+            if (list[j] < list[index]) index = j;
         }
-        unsortedIndex -= 1;
+        [list[i], list[index]] = [list[index], list[i]];
     }
-
-    return list;
+    
+    return result;
 }
-let list = [65, 55, 45, 1, 35, 25, 10, 15];
-console.log(bubbleSort(list));
+
+let list = [13, 5, 11, 7, 23, 15];
+console.log(selectSort(list));
