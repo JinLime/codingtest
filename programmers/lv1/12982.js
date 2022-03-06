@@ -17,4 +17,4 @@ function solution(d, budget) {
 
 const d = [1, 3, 2, 5, 4];
 
-console.log(solution(d, 20));
+console.log(solution(d, 9));
