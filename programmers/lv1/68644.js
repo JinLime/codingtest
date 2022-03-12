@@ -4,7 +4,6 @@ function solution(numbers) {
 
     while (p1 < numbers.length-1) {
         let p1PlusP2 = numbers[p1] + numbers[p2++];
-        console.log(p1PlusP2);
         if (!result.includes(p1PlusP2)) result.push(p1PlusP2);
         if (p2 >= numbers.length) {
             p1++;
