@@ -1,14 +1,16 @@
-const solution = (answers) => {
+function solution(answers) {
     let answer = [];
     let score = 0;
     let soopojaArr = [
         [1, 2, 3, 4, 5],
         [2, 1, 2, 3, 2, 4, 2, 5],
-        [3, 3, 1, 1, 2, 2, 4, 4, 5, 5]
+        [3, 3, 1, 1, 2, 2, 4, 4, 5, 5],
     ];
 
     for (let i = 0; i < soopojaArr.length; i++) {
-        let p1 = 0, p2 = 0, cnt = 0;
+        let p1 = 0,
+            p2 = 0,
+            cnt = 0;
 
         while (p1 < answers.length) {
             if (p2 === soopojaArr[i].length) p2 = 0;
@@ -19,17 +21,19 @@ const solution = (answers) => {
 
         if (cnt > score) {
             answer = [];
-            answer.push(i+1);
+            answer.push(i + 1);
             score = cnt;
         } else if (cnt === score) {
-            answer.push(i+1);
+            answer.push(i + 1);
             score = cnt;
         }
     }
 
     return answer;
-};
+}
 
-let answers = [1,2,3,4,5,1,2,3,4,5,3,3,1,1,2,2,4,4,5,5,3,3,1,1,2,2,4,4,5,5];
+let answers = [
+    1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 3, 3, 1, 1, 2, 2, 4, 4, 5, 5, 3, 3, 1, 1, 2, 2, 4, 4, 5, 5,
+];
 
 console.log(solution(answers));

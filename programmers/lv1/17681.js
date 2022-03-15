@@ -10,10 +10,10 @@ function mergeMap(arr1, arr2) {
     const space = " ";
     const wall = "#";
     return arr1.map((line, lIndex) => {
-        console.log(line, lIndex);
+        // console.log(line, lIndex);
         return line
             .map((block, bIndex) => {
-                console.log(block, bIndex);
+                // console.log(block, bIndex);
                 return block + arr2[lIndex][bIndex] ? wall : space;
             })
             .join("");
@@ -23,8 +23,8 @@ function mergeMap(arr1, arr2) {
 function solution(n, arr1, arr2) {
     const decodeArr1 = decodeMap(arr1);
     const decodeArr2 = decodeMap(arr2);
-    console.log(decodeArr1);
-    console.log(decodeArr2);
+    // console.log(decodeArr1);
+    // console.log(decodeArr2);
     return mergeMap(decodeArr1, decodeArr2);
 }
 

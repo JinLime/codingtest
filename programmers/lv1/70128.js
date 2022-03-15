@@ -1,4 +1,4 @@
-const solution = function (a, b) {
+function solution(a, b) {
     let answer = 0;
 
     for (let i = 0; i < a.length; i++) {
@@ -6,7 +6,7 @@ const solution = function (a, b) {
     }
 
     return answer;
-};
+}
 
 let a = [1, 2, 3, 4];
 let b = [-3, -1, 0, 2];
