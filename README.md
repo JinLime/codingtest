@@ -2,7 +2,7 @@
 
 ## section01. 기본문제 풀이
 
-[01. 세 수 중 최솟값](https://https://github.com/JinLime/codingtest/blob/master/jsAlgorithm/section01/01.js)  
+[01. 세 수 중 최솟값](https://github.com/JinLime/codingtest/blob/master/jsAlgorithm/section01/01.js)  
 [02. 삼각형 판별하기](https://github.com/JinLime/codingtest/blob/master/jsAlgorithm/section01/02.js)  
 [03. 연필개수](https://github.com/JinLime/codingtest/blob/master/jsAlgorithm/section01/03.js)  
 [04. 1부터 N까지의 합](https://github.com/JinLime/codingtest/blob/master/jsAlgorithm/section01/04.js)  
