@@ -1,13 +1,13 @@
 // 소수 판별기
-const isPrime = (num) => {
+function isPrime(num) {
     if (num === 1) return false;
     for (let i = 2; i <= Math.sqrt(num); i++) {
         if (num % i === 0) return false;
     }
     return true;
-};
+}
 
-const solution = (nums) => {
+function solution(nums) {
     let answer = 0;
     let p1 = 0,
         p2 = 1,
@@ -31,7 +31,7 @@ const solution = (nums) => {
     }
 
     return answer;
-};
+}
 
 let nums = [1, 2, 3, 4];
 

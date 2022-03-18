@@ -1,6 +1,7 @@
 function solution(lottos, win_nums) {
     let answer = [];
-    let rank = 7, cntZero = 0;
+    let rank = 7,
+        cntZero = 0;
 
     for (let x of lottos) {
         if (x === 0) cntZero += 1;
