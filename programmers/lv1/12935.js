@@ -1,6 +1,7 @@
 function solution(n) {
     if (n.length === 0 || n.length === 1) return [-1];
     else {
+        // 배열 깊은 복사
         const n_copy = [...n];
         n_copy.sort((a, b) => a - b);
         n.splice(n.indexOf(n_copy[0]), 1);
