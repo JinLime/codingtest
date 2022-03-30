@@ -1,39 +1,41 @@
-function division(a, n) {
-    let result = [];
-    for (i = 0; i < a.length; i += n) {
-        result.push(a.slice(i, i + n));
-    }
-    return result;
+function numL(num) {
+    return String(num).length;
 }
 
 function solution(s) {
-    let cnt = 1;
-    let cntA = 1;
-    let sArr = s.split("");
-    let arr;
+    let   minL  = s.length;
+    const limit = s.length / 2;
 
-    while (cnt <= s.length) {
-        const c = [];
-        arr = division(sArr, cnt);
-        console.log(arr);
+    for(let i = 1; i <= limit; i++) {
+    let   overlap = 1;
+    const regexp  = new RegExp(".{1," + i + "}", "g");
+    console.log(regexp);
+    const splited = s.match(regexp);
+    console.log(splited);
 
-        for (let i = 0; i < arr.length; i++) {
-            if (arr[i].toString() === arr[i + 1].toString()) cntA++;
-            else if (arr[i].toString() !== arr[i + 1].toString() && cntA > 1) {
-                c.push(cntA);
-                c.push(arr[i]);
-                cnt = 1;
+    const strL = splited.reduce((count, str, idx) => {
+        console.log(count, str, idx);
+        if(idx > 0) {
+            const recent = splited[idx - 1];
+            if(str === recent) {
+                overlap++;
+                return idx === (splited.length - 1) ? count + numL(overlap) : count;
+            } else {
+                const overlapL = numL(overlap);
+                const tmp = overlap;
+                overlap = 1;
+                return tmp === 1 ? count + str.length : count + str.length + overlapL;
             }
+        } else {
+        return str.length;
         }
-        console.log(c);
-        cnt++;
+    }, 0);
+    console.log(`strL : ${strL}\n`);
+    if (minL > strL) {
+        minL = strL;
     }
+    }
+    return minL;
 }
 
 console.log(solution("aabbaccc"));
-
-// let a = [
-//     ["a", "b"],
-//     ["a", "c"],
-// ];
-// console.log(a[0].toString() === a[1].toString());

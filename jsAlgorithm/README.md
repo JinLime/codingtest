@@ -76,7 +76,7 @@
 [05. 삽입정렬응용](https://github.com/JinLime/codingtest/blob/master/jsAlgorithm/section07/05.js)  
 [06. 장난꾸러기 현수](https://github.com/JinLime/codingtest/blob/master/jsAlgorithm/section07/06.js)  
 [07. 좌표정렬](https://github.com/JinLime/codingtest/blob/master/jsAlgorithm/section07/07.js)  
-[08. 회의실 배정](https://github.com/JinLime/codingtest/blob/master/jsAlgorithm/section07/08.js)  
+[08. 회의실 배정(그리디)](https://github.com/JinLime/codingtest/blob/master/jsAlgorithm/section07/08.js)  
 [09. 결혼식](https://github.com/JinLime/codingtest/blob/master/jsAlgorithm/section07/09.js)  
 [10. 이분검색](https://github.com/JinLime/codingtest/blob/master/jsAlgorithm/section07/10.js)  
 [11. 뮤직비디오(결정알고리즘)](https://github.com/JinLime/codingtest/blob/master/jsAlgorithm/section07/11.js)  
