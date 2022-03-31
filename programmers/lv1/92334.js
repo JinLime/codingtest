@@ -1,6 +1,7 @@
 function solution(id_list, report, k) {
     let answer = [];
     let reports = report.map((x) => x.split(" "));
+    console.log(reports);
 
     let counts = new Map();
     for (let x of reports) {
