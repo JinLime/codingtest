@@ -1,4 +1,4 @@
-const solution = function (arr, divisor) {
+function solution(arr, divisor) {
     let result = [];
 
     for (let x of arr) {
@@ -6,10 +6,8 @@ const solution = function (arr, divisor) {
     }
 
     return result.length === 0 ? [-1] : result.sort((a, b) => a - b);
-};
+}
 
 let arr = [3, 2, 6];
 
 console.log(solution(arr, 5));
-
-// console.log(5 % 5);
