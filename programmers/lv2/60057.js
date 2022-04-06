@@ -9,7 +9,9 @@ function solution(s) {
     for (let i = 1; i <= limit; i++) {
         let overlap = 1;
         const regexp = new RegExp(".{1," + i + "}", "g");
+        console.log(regexp);
         const splited = s.match(regexp);
+        console.log(splited);
         const strL = splited.reduce((count, str, idx) => {
             if (idx > 0) {
                 const recent = splited[idx - 1];
