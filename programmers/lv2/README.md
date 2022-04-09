@@ -2,9 +2,9 @@
 
 ## Level 1
 
-| 문제                                                                       |           코드            |                           유형 |
-| -------------------------------------------------------------------------- | :-----------------------: | -----------------------------: | --- |
-| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | [JS](cpp/level1_2016.cpp) | [2022 KAKAO BLIND RECRUITMENT] |     |
+| 문제  |  코드 |  유형 |
+| ----- | :---------: | ---------------: | --- |
+| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | [JS] | [2022 KAKAO BLIND RECRUITMENT] | |
 
 ## Level 2
 
