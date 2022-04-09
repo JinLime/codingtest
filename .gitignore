@@ -1,3 +1,4 @@
 .prettierignore
 input.txt
 .prettierrc
+test.js
