@@ -65,6 +65,73 @@
 | 문제 | 코드 | 유형 |  
 | ------------- |:-------------:| ---------------------------:|  
 | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [JS](lv2/60057.js) | [2020 KAKAO BLIND RECRUITMENT] | |  
+| [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) | [JS](lv2/42888.js) | [2019 KAKAO BLIND RECRUITMENT] | |  
+| [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) | [JS](lv2/62048.js) | [Summer/Winter Coding(2019)] | |  
+| [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899) | [JS](lv2/12899.js) | [연습문제] | |  
+| [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [JS](lv2/42586.js) | [스택/큐] | |  
+| [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [JS](lv2/42626.js) | [힙(Heap)] | |  
+| [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | [JS](lv2/43165.js) | [깊이/너비 우선 탐색(DFS/BFS)] | |  
+| [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | [JS](lv2/12973.js) | [2017 팁스타운] | |  
+| [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | [JS](lv2/77485.js) | [2021 Dev-Matching: 웹 백엔드 개발자(상반기)] | |  
+| [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | [JS](lv2/72411.js) | [2021 KAKAO BLIND RECRUITMENT] | |  
+| [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [JS](lv2/60058.js) | [2020 KAKAO BLIND RECRUITMENT] | |  
+| [[1차] 뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677) | [JS](lv2/17677.js) | [2018 KAKAO BLIND RECRUITMENT] | |  
+| [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302) | [JS](lv2/81302.js) | [2021 카카오 채용연계형 인턴십] | |  
+| [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | [JS](lv2/67257.js) | [2020 카카오 인턴십] | |  
+| [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065) | [JS](lv2/64065.js) | [2019 카카오 개발자 겨울 인턴십] | |  
+| [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052) | [JS](lv2/86052.js) | [월간 코드 챌린지 시즌3] | |  
+| [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [JS](lv2/42577.js) | [해시] | |  
+| [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | [JS](lv2/42587.js) | [스택/큐] | |  
+| [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | [JS](lv2/42746.js) | [정렬] | |  
+| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | [JS](lv2/42839.js) | [완전탐색] | |  
+| [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | [JS](lv2/42860.js) | [탐욕법(Greedy)] | |  
+| [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844) | [JS](lv2/1844.js) | [찾아라 프로그래밍 마에스터] | |  
+| [예상 대진표](https://programmers.co.kr/learn/courses/30/lessons/12985) | [JS](lv2/12985.js) | [2017 팁스타운] | |  
+| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [JS](lv2/72412.js) | [2021 KAKAO BLIND RECRUITMENT] | |  
+| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | [JS](lv2/42890.js) | [2019 KAKAO BLIND RECRUITMENT] | |  
+| [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) | [JS](lv2/76502.js) | [월간 코드 챌린지 시즌2] | |  
+| [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | [JS](lv2/12978.js) | [Summer/Winter Coding(~2018)] | |  
+| [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [JS](lv2/42578.js) | [해시] | |  
+| [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) | [JS](lv2/42583.js) | [스택/큐] | |  
+| [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) | [JS](lv2/42747.js) | [정렬] | |  
+| [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) | [JS](lv2/42842.js) | [완전탐색] | |  
+| [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) | [JS](lv2/42883.js) | [탐욕법(Greedy)] | |  
+| [피로도](https://programmers.co.kr/learn/courses/30/lessons/87946) | [JS](lv2/87946.js) | [위클리 챌린지] | |  
+| [[1차] 프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | [JS](lv2/17679.js) | [2018 KAKAO BLIND RECRUITMENT] | |  
+| [2개 이하로 다른 비트](https://programmers.co.kr/learn/courses/30/lessons/77885) | [JS](lv2/77885.js) | [월간 코드 챌린지 시즌2] | |  
+| [삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) | [JS](lv2/68645.js) | [월간 코드 챌린지 시즌1] | |  
+| [영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981) | [JS](lv2/12981.js) | [Summer/Winter Coding(~2018)] | |  
+| [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | [JS](lv2/42584.js) | [스택/큐] | |  
+| [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) | [JS](lv2/42885.js) | [탐욕법(Greedy)] | |  
+| [교점에 별 만들기](https://programmers.co.kr/learn/courses/30/lessons/87377) | [JS](lv2/87377.js) | [위클리 챌린지] | |  
+| [전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | [JS](lv2/86971.js) | [위클리 챌린지] | |  
+| [모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | [JS](lv2/84512.js) | [위클리 챌린지] | |  
+| [[1차] 캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | [JS](lv2/17680.js) | [2018 KAKAO BLIND RECRUITMENT] | |  
+| [이진 변환 반복하기](https://programmers.co.kr/learn/courses/30/lessons/70129) | [JS](lv2/70129.js) | [월간 코드 챌린지 시즌1] | |  
+| [점프와 순간 이동](https://programmers.co.kr/learn/courses/30/lessons/12980) | [JS](lv2/12980.js) | [Summer/Winter Coding(~2018)] | |  
+| [n^2 배열 자르기](https://programmers.co.kr/learn/courses/30/lessons/87390) | [JS](lv2/87390.js) | [월간 코드 챌린지 시즌3] | |  
+| [쿼드압축 후 개수 세기](https://programmers.co.kr/learn/courses/30/lessons/68936) | [JS](lv2/68936.js) | [월간 코드 챌린지 시즌1] | |  
+| [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | [JS](lv2/49993.js) | [Summer/Winter Coding(~2018)] | |  
+| [방문 길이](https://programmers.co.kr/learn/courses/30/lessons/49994) | [JS](lv2/49994.js) | [Summer/Winter Coding(~2018)] | |  
+| [[3차] 방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683) | [JS](lv2/17683.js) | [2018 KAKAO BLIND RECRUITMENT] | |  
+| [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905) | [JS](lv2/12905.js) | [연습문제] | |  
+| [[3차] 압축](https://programmers.co.kr/learn/courses/30/lessons/17684) | [JS](lv2/17684.js) | [2018 KAKAO BLIND RECRUITMENT] | |  
+| [[3차] 파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686) | [JS](lv2/17686.js) | [2018 KAKAO BLIND RECRUITMENT] | |  
+| [올바른 괄호](https://programmers.co.kr/learn/courses/30/lessons/12909) | [JS](lv2/12909.js) | [연습문제] | |  
+| [[3차] n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | [JS](lv2/17687.js) | [2018 KAKAO BLIND RECRUITMENT] | |  
+| [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911) | [JS](lv2/12911.js) | [연습문제] | |  
+| [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913) | [JS](lv2/12913.js) | [연습문제] | |  
+| [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) | [JS](lv2/92335.js) | [2022 KAKAO BLIND RECRUITMENT] | |  
+| [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924) | [JS](lv2/12924.js) | [연습문제] | |  
+| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | [JS](lv2/92341.js) | [2022 KAKAO BLIND RECRUITMENT] | |  
+| [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | [JS](lv2/12939.js) | [연습문제] | |  
+| [최솟값 만들기](https://programmers.co.kr/learn/courses/30/lessons/12941) | [JS](lv2/12941.js) | [연습문제] | |  
+| [피보나치 수](https://programmers.co.kr/learn/courses/30/lessons/12945) | [JS](lv2/12945.js) | [연습문제] | |  
+| [행렬의 곱셈](https://programmers.co.kr/learn/courses/30/lessons/12949) | [JS](lv2/12949.js) | [연습문제] | |  
+| [JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951) | [JS](lv2/12951.js) | [연습문제] | |  
+| [N개의 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12953) | [JS](lv2/12953.js) | [연습문제] | |  
+| [양궁대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | [JS](lv2/92342.js) | [2022 KAKAO BLIND RECRUITMENT] | |  
+
 
 ## Level 3  
 
