@@ -25,13 +25,13 @@ function solution(orders, course) {
             }
         }
     }
-
+    //  세트 1개짜리 제거
     for (const [index, v] of orderMap.entries()) {
         if (orderMap.get(index) === 1) orderMap.delete(index);
     }
 
     const cntArr = Array.from({ length: course.length }, (v) => 0);
-
+    // 코스 별 최대 메뉴
     for (const [index, v] of orderMap.entries()) {
         for (let i = 0; i < course.length; i++) {
             if (index.length === course[i]) cntArr[i] = Math.max(cntArr[i], v);

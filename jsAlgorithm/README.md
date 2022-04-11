@@ -17,8 +17,8 @@
 | 12 | [대문자로 통일](section01/12.js) | |  
 | 13 | [대소문자 변환](section01/13.js) | |  
 | 14 | [가장 긴 문자열](section01/14.js) | |  
-| 15 | [가운데 문자 출력](section01/15.js) | |  
-| 16 | [중복 문자 제거](section01/16.js) | |  
+| 15 | [가운데 문자 출력(substring, substr)](section01/15.js) | |  
+| 16 | [중복 문자 제거(indexOf)](section01/16.js) | |  
 | 17 | [중복 단어 제거](section01/17.js) | |  
 
 ## section02. 1,2차원 배열 탐색
@@ -53,13 +53,13 @@
 ## section05. 효율성(투포인터, 슬라이딩윈도우, 해쉬)
 | 번호 | 제목 |   
 | ------------- |:-------------:|  
-| 01 | [두 배열 합치기](section05/01.js) | |  
-| 02 | [공통원소구하기](section05/02.js) | |  
-| 03 | [연속부분수열1](section05/03.js) | |  
-| 04 | [연속부분수열2](section05/04.js) | |  
-| 05 | [최대 매출](section05/05.js) | |  
-| 06 | [학급 회장(해쉬)](section05/06.js) | |  
-| 07 | [아나그램(해쉬)](section05/07.js) | |  
+| 01 | [두 배열 합치기(Two Pointers Algorithm)](section05/01.js) | |  
+| 02 | [공통원소구하기(Two Pointers Algorithm)](section05/02.js) | |  
+| 03 | [연속부분수열1(Two Pointers Algorithm)](section05/03.js) | |  
+| 04 | [연속부분수열2(Two Pointers Algorithm)](section05/04.js) | |  
+| 05 | [최대 매출(Sliding Window)](section05/05.js) | |  
+| 06 | [학급 회장(Hash Map)](section05/06.js) | |  
+| 07 | [아나그램(Hash Map)](section05/07.js) | |  
 | 08 | [모든 아나그램(해쉬, 투포인터, 슬라이딩 윈도우)](section05/08.js) | |  
 
 ## section06. 자료구조(스택, 큐)
@@ -90,38 +90,41 @@
 | 12 | [마구간 정하기(결정알고리즘)](section07/12.js) | |  
 
 ## section08. 재귀함수와 완전탐색(DFS:깊이우선탐색)
-
-[01. ](section08/01.js)  
-[02. ](section08/02.js)  
-[03. ](section08/03.js)  
-[04. ](section08/04.js)  
-[05. ](section08/05.js)  
-[06. ](section08/06.js)  
-[07. ](section08/07.js)  
-[08. ](section08/08.js)  
-[09. ](section08/09.js)  
-[10. ](section08/10.js)  
-[11. ](section08/11.js)  
-[12. ](section08/12.js)  
-[13. ](section08/13.js)  
-[14. ](section08/14.js)  
-[15. ](section08/15.js)  
+| 번호 | 제목 |   
+| ------------- |:-------------:|  
+| 01 | [재귀함수와 스택프레임](section08/01.js) | |  
+| 02 | [이진수 출력(재귀)](section08/02.js) | |  
+| 03 | [이진트리순회(DFS:깊이우선탐색)](section08/03.js) | |  
+| 04 | [부분집합 구하기(이진트리 DFS)](section08/04.js) | |  
+| 05 | [합이 같은 부분집합(이진트리 DFS)](section08/05.js) | |  
+| 06 | [바둑이 승차(이진트리 DFS)](section08/06.js) | |  
+| 07 | [](section08/07.js) | |  
+| 08 | [](section08/08.js) | |  
+| 09 | [](section08/09.js) | |  
+| 10 | [](section08/10.js) | |  
+| 11 | [](section08/11.js) | |  
+| 12 | [](section08/12.js) | |  
+| 13 | [](section08/13.js) | |  
+| 14 | [](section08/14.js) | |  
+| 15 | [](section08/15.js) | |  
 
 ## section09. 그래프와 탐색(DFS, BFS:넓이우선탐색)
-
-[01. ](section09/01.js)  
-[02. ](section09/02.js)  
-[03. ](section09/03.js)  
-[04. ](section09/04.js)  
-[05. ](section09/05.js)  
-[06. ](section09/06.js)  
-[07. ](section09/07.js)  
-[08. ](section09/08.js)  
+| 번호 | 제목 |   
+| ------------- |:-------------:|  
+| 01 | [](section09/01.js) | |  
+| 02 | [](section09/02.js) | |  
+| 03 | [](section09/03.js) | |  
+| 04 | [](section09/04.js) | |  
+| 05 | [](section09/05.js) | |  
+| 06 | [](section09/06.js) | |  
+| 07 | [](section09/07.js) | |  
+| 08 | [](section09/08.js) | |  
 
 ## section10. Dynamic programming(동적계획법)
-
-[01. ](section10/01.js)  
-[02. ](section10/02.js)  
-[03. ](section10/03.js)  
-[04. ](section10/04.js)  
-[05. ](section10/05.js)  
+| 번호 | 제목 |   
+| ------------- |:-------------:|  
+| 01 | [](section10/01.js) | |  
+| 02 | [](section10/02.js) | |  
+| 03 | [](section10/03.js) | |  
+| 04 | [](section10/04.js) | |  
+| 05 | [](section10/05.js) | |  
