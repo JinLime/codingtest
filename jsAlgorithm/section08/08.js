@@ -2,7 +2,7 @@ function solution(N, M) {
     let result = [];
     let tmp = Array.from({ length: M }, (_) => 0);
 
-    function DFS(L, sum) {
+    function DFS(L) {
         if (L === M) {
             result.push(tmp.slice());
             return;
